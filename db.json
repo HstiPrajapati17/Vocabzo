@@ -1,0 +1,708 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria Santos",
+      "email": "maria@example.com",
+      "password": "password123",
+      "avatar": "👩‍💼",
+      "xp": 1240,
+      "streak": 21,
+      "hearts": 5,
+      "language": "Spanish",
+      "level": "Intermediate",
+      "dailyGoal": "Serious",
+      "completedLessons": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeLesson": 9,
+      "joinedDate": "2025-01-01"
+    },
+    {
+      "id": 2,
+      "name": "Demo User",
+      "email": "demo@demo.com",
+      "password": "demo123",
+      "avatar": "🧑‍💻",
+      "xp": 340,
+      "streak": 7,
+      "hearts": 5,
+      "language": "Spanish",
+      "level": "Beginner",
+      "dailyGoal": "Regular",
+      "completedLessons": [
+        1,
+        2
+      ],
+      "activeLesson": 3,
+      "joinedDate": "2025-06-01"
+    },
+    {
+      "name": "ASD babariya",
+      "email": "yatri@gmail.com",
+      "password": "123456",
+      "avatar": "🧑‍💻",
+      "xp": 0,
+      "streak": 0,
+      "hearts": 5,
+      "language": "German",
+      "level": "Intermediate",
+      "dailyGoal": "Casual",
+      "completedLessons": [],
+      "activeLesson": 1,
+      "joinedDate": "2026-06-23",
+      "id": 3
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "unitId": 1,
+      "title": "Greetings",
+      "type": "vocabulary",
+      "icon": "👋",
+      "xp": 10,
+      "language": "Spanish"
+    },
+    {
+      "id": 2,
+      "unitId": 1,
+      "title": "Numbers",
+      "type": "vocabulary",
+      "icon": "🔢",
+      "xp": 10,
+      "language": "Spanish"
+    },
+    {
+      "id": 3,
+      "unitId": 1,
+      "title": "Colors",
+      "type": "vocabulary",
+      "icon": "🎨",
+      "xp": 10,
+      "language": "Spanish"
+    },
+    {
+      "id": 4,
+      "unitId": 1,
+      "title": "Animals",
+      "type": "vocabulary",
+      "icon": "🐾",
+      "xp": 10,
+      "language": "Spanish"
+    },
+    {
+      "id": 5,
+      "unitId": 1,
+      "title": "Quiz 1",
+      "type": "quiz",
+      "icon": "🏆",
+      "xp": 20,
+      "language": "Spanish"
+    },
+    {
+      "id": 6,
+      "unitId": 2,
+      "title": "Food & Drink",
+      "type": "translation",
+      "icon": "🍎",
+      "xp": 15,
+      "language": "Spanish"
+    },
+    {
+      "id": 7,
+      "unitId": 2,
+      "title": "Travel",
+      "type": "listening",
+      "icon": "✈️",
+      "xp": 15,
+      "language": "Spanish"
+    },
+    {
+      "id": 8,
+      "unitId": 2,
+      "title": "Directions",
+      "type": "speaking",
+      "icon": "🗺️",
+      "xp": 15,
+      "language": "Spanish"
+    },
+    {
+      "id": 9,
+      "unitId": 2,
+      "title": "Quiz 2",
+      "type": "quiz",
+      "icon": "🏆",
+      "xp": 25,
+      "language": "Spanish"
+    },
+    {
+      "id": 10,
+      "unitId": 3,
+      "title": "Introductions",
+      "type": "speaking",
+      "icon": "🗣️",
+      "xp": 20,
+      "language": "Spanish"
+    },
+    {
+      "id": 11,
+      "unitId": 3,
+      "title": "Shopping",
+      "type": "matching",
+      "icon": "🛒",
+      "xp": 20,
+      "language": "Spanish"
+    },
+    {
+      "id": 12,
+      "unitId": 3,
+      "title": "At Work",
+      "type": "sentences",
+      "icon": "💼",
+      "xp": 20,
+      "language": "Spanish"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "lessonId": 1,
+      "type": "multiple-choice",
+      "question": "What does \"Hola\" mean in English?",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Thank you",
+        "Please"
+      ],
+      "correct": 1,
+      "explanation": "\"Hola\" is the Spanish word for \"Hello\" — the most common greeting."
+    },
+    {
+      "id": 2,
+      "lessonId": 1,
+      "type": "multiple-choice",
+      "question": "Which of these means \"Thank you\" in Spanish?",
+      "options": [
+        "Por favor",
+        "Lo siento",
+        "Gracias",
+        "Buenas noches"
+      ],
+      "correct": 2,
+      "explanation": "\"Gracias\" means \"Thank you\". \"Por favor\" means \"Please\"."
+    },
+    {
+      "id": 3,
+      "lessonId": 1,
+      "type": "translate",
+      "question": "Translate to Spanish: \"Good morning\"",
+      "options": [
+        "Buenas tardes",
+        "Buenos días",
+        "Buenas noches",
+        "Buen provecho"
+      ],
+      "correct": 1,
+      "explanation": "\"Buenos días\" literally means \"Good days\" and is used as \"Good morning\"."
+    },
+    {
+      "id": 4,
+      "lessonId": 1,
+      "type": "multiple-choice",
+      "question": "What does \"Por favor\" mean?",
+      "options": [
+        "Excuse me",
+        "Sorry",
+        "Please",
+        "You're welcome"
+      ],
+      "correct": 2,
+      "explanation": "\"Por favor\" means \"Please\" in Spanish."
+    },
+    {
+      "id": 5,
+      "lessonId": 1,
+      "type": "translate",
+      "question": "Translate: \"How are you?\" to Spanish",
+      "options": [
+        "¿Dónde estás?",
+        "¿Cómo te llamas?",
+        "¿Cuántos años tienes?",
+        "¿Cómo estás?"
+      ],
+      "correct": 3,
+      "explanation": "\"¿Cómo estás?\" means \"How are you?\" in Spanish."
+    },
+    {
+      "id": 6,
+      "lessonId": 2,
+      "type": "multiple-choice",
+      "question": "How do you say \"1\" in Spanish?",
+      "options": [
+        "Dos",
+        "Tres",
+        "Uno",
+        "Cuatro"
+      ],
+      "correct": 2,
+      "explanation": "\"Uno\" means \"1\" in Spanish."
+    },
+    {
+      "id": 7,
+      "lessonId": 2,
+      "type": "translate",
+      "question": "What is \"Cinco\"?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 2,
+      "explanation": "\"Cinco\" means \"5\" in Spanish."
+    },
+    {
+      "id": 8,
+      "lessonId": 2,
+      "type": "multiple-choice",
+      "question": "How do you say \"10\" in Spanish?",
+      "options": [
+        "Nueve",
+        "Diez",
+        "Ocho",
+        "Siete"
+      ],
+      "correct": 1,
+      "explanation": "\"Diez\" means \"10\" in Spanish."
+    },
+    {
+      "id": 9,
+      "lessonId": 2,
+      "type": "multiple-choice",
+      "question": "What does \"Dos\" mean?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "\"Dos\" means \"2\" in Spanish."
+    },
+    {
+      "id": 10,
+      "lessonId": 2,
+      "type": "translate",
+      "question": "Translate: \"Seven\" to Spanish",
+      "options": [
+        "Seis",
+        "Ocho",
+        "Siete",
+        "Nueve"
+      ],
+      "correct": 2,
+      "explanation": "\"Siete\" means \"Seven\" in Spanish."
+    },
+    {
+      "id": 11,
+      "lessonId": 3,
+      "type": "multiple-choice",
+      "question": "How do you say \"Red\" in Spanish?",
+      "options": [
+        "Azul",
+        "Verde",
+        "Rojo",
+        "Amarillo"
+      ],
+      "correct": 2,
+      "explanation": "\"Rojo\" means \"Red\" in Spanish."
+    },
+    {
+      "id": 12,
+      "lessonId": 3,
+      "type": "translate",
+      "question": "What color is \"Azul\"?",
+      "options": [
+        "Green",
+        "Yellow",
+        "Blue",
+        "Purple"
+      ],
+      "correct": 2,
+      "explanation": "\"Azul\" means \"Blue\" in Spanish."
+    },
+    {
+      "id": 13,
+      "lessonId": 3,
+      "type": "multiple-choice",
+      "question": "How do you say \"Yellow\" in Spanish?",
+      "options": [
+        "Naranja",
+        "Amarillo",
+        "Morado",
+        "Rosa"
+      ],
+      "correct": 1,
+      "explanation": "\"Amarillo\" means \"Yellow\" in Spanish."
+    },
+    {
+      "id": 14,
+      "lessonId": 3,
+      "type": "multiple-choice",
+      "question": "What does \"Verde\" mean?",
+      "options": [
+        "Orange",
+        "White",
+        "Black",
+        "Green"
+      ],
+      "correct": 3,
+      "explanation": "\"Verde\" means \"Green\" in Spanish."
+    },
+    {
+      "id": 15,
+      "lessonId": 3,
+      "type": "translate",
+      "question": "Translate: \"White\" to Spanish",
+      "options": [
+        "Negro",
+        "Blanco",
+        "Gris",
+        "Marrón"
+      ],
+      "correct": 1,
+      "explanation": "\"Blanco\" means \"White\" in Spanish."
+    },
+    {
+      "id": 16,
+      "lessonId": 4,
+      "type": "multiple-choice",
+      "question": "How do you say \"Dog\" in Spanish?",
+      "options": [
+        "Gato",
+        "Perro",
+        "Pájaro",
+        "Pez"
+      ],
+      "correct": 1,
+      "explanation": "\"Perro\" means \"Dog\" in Spanish."
+    },
+    {
+      "id": 17,
+      "lessonId": 4,
+      "type": "translate",
+      "question": "What animal is \"Gato\"?",
+      "options": [
+        "Dog",
+        "Bird",
+        "Cat",
+        "Fish"
+      ],
+      "correct": 2,
+      "explanation": "\"Gato\" means \"Cat\" in Spanish."
+    },
+    {
+      "id": 18,
+      "lessonId": 4,
+      "type": "multiple-choice",
+      "question": "How do you say \"Horse\" in Spanish?",
+      "options": [
+        "Vaca",
+        "Caballo",
+        "Cerdo",
+        "Oveja"
+      ],
+      "correct": 1,
+      "explanation": "\"Caballo\" means \"Horse\" in Spanish."
+    },
+    {
+      "id": 19,
+      "lessonId": 4,
+      "type": "multiple-choice",
+      "question": "What does \"Pájaro\" mean?",
+      "options": [
+        "Fish",
+        "Bird",
+        "Lion",
+        "Bear"
+      ],
+      "correct": 1,
+      "explanation": "\"Pájaro\" means \"Bird\" in Spanish."
+    },
+    {
+      "id": 20,
+      "lessonId": 4,
+      "type": "translate",
+      "question": "Translate: \"Fish\" to Spanish",
+      "options": [
+        "Rana",
+        "Serpiente",
+        "Pez",
+        "Tortuga"
+      ],
+      "correct": 2,
+      "explanation": "\"Pez\" means \"Fish\" in Spanish."
+    },
+    {
+      "id": 21,
+      "lessonId": 5,
+      "type": "multiple-choice",
+      "question": "What is the Spanish word for \"Please\"?",
+      "options": [
+        "Gracias",
+        "Por favor",
+        "Lo siento",
+        "De nada"
+      ],
+      "correct": 1,
+      "explanation": "\"Por favor\" means \"Please\" in Spanish."
+    },
+    {
+      "id": 22,
+      "lessonId": 5,
+      "type": "translate",
+      "question": "Translate: \"You're welcome\"",
+      "options": [
+        "Gracias",
+        "Por favor",
+        "De nada",
+        "Lo siento"
+      ],
+      "correct": 2,
+      "explanation": "\"De nada\" means \"You're welcome\" in Spanish."
+    },
+    {
+      "id": 23,
+      "lessonId": 5,
+      "type": "multiple-choice",
+      "question": "How do you say \"3\" in Spanish?",
+      "options": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "correct": 2,
+      "explanation": "\"Tres\" means \"3\" in Spanish."
+    },
+    {
+      "id": 24,
+      "lessonId": 5,
+      "type": "multiple-choice",
+      "question": "What color is \"Rojo\"?",
+      "options": [
+        "Blue",
+        "Green",
+        "Yellow",
+        "Red"
+      ],
+      "correct": 3,
+      "explanation": "\"Rojo\" means \"Red\" in Spanish."
+    },
+    {
+      "id": 25,
+      "lessonId": 5,
+      "type": "translate",
+      "question": "What animal is \"Perro\"?",
+      "options": [
+        "Cat",
+        "Dog",
+        "Horse",
+        "Bird"
+      ],
+      "correct": 1,
+      "explanation": "\"Perro\" means \"Dog\" in Spanish."
+    },
+    {
+      "id": 26,
+      "lessonId": 6,
+      "type": "multiple-choice",
+      "question": "How do you say \"Water\" in Spanish?",
+      "options": [
+        "Leche",
+        "Café",
+        "Agua",
+        "Jugo"
+      ],
+      "correct": 2,
+      "explanation": "\"Agua\" means \"Water\" in Spanish."
+    },
+    {
+      "id": 27,
+      "lessonId": 6,
+      "type": "translate",
+      "question": "What does \"Pan\" mean?",
+      "options": [
+        "Rice",
+        "Bread",
+        "Soup",
+        "Cake"
+      ],
+      "correct": 1,
+      "explanation": "\"Pan\" means \"Bread\" in Spanish."
+    },
+    {
+      "id": 28,
+      "lessonId": 6,
+      "type": "multiple-choice",
+      "question": "How do you say \"Milk\" in Spanish?",
+      "options": [
+        "Agua",
+        "Leche",
+        "Jugo",
+        "Vino"
+      ],
+      "correct": 1,
+      "explanation": "\"Leche\" means \"Milk\" in Spanish."
+    },
+    {
+      "id": 29,
+      "lessonId": 6,
+      "type": "multiple-choice",
+      "question": "What does \"Manzana\" mean?",
+      "options": [
+        "Banana",
+        "Orange",
+        "Apple",
+        "Grape"
+      ],
+      "correct": 2,
+      "explanation": "\"Manzana\" means \"Apple\" in Spanish."
+    },
+    {
+      "id": 30,
+      "lessonId": 6,
+      "type": "translate",
+      "question": "Translate: \"Chicken\" to Spanish",
+      "options": [
+        "Cerdo",
+        "Res",
+        "Pollo",
+        "Pescado"
+      ],
+      "correct": 2,
+      "explanation": "\"Pollo\" means \"Chicken\" in Spanish."
+    }
+  ],
+  "leaderboard": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Maria Santos",
+      "avatar": "👩‍💼",
+      "xp": 1240,
+      "streak": 21,
+      "language": "🇪🇸",
+      "change": "up",
+      "league": "Gold"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Demo User",
+      "avatar": "🧑‍💻",
+      "xp": 340,
+      "streak": 7,
+      "language": "🇪🇸",
+      "change": "same",
+      "league": "Silver"
+    },
+    {
+      "id": 3,
+      "userId": 0,
+      "name": "James Kim",
+      "avatar": "👨‍🎓",
+      "xp": 290,
+      "streak": 5,
+      "language": "🇯🇵",
+      "change": "down",
+      "league": "Silver"
+    },
+    {
+      "id": 4,
+      "userId": 0,
+      "name": "Priya Rao",
+      "avatar": "👩‍🏫",
+      "xp": 250,
+      "streak": 9,
+      "language": "🇮🇳",
+      "change": "up",
+      "league": "Silver"
+    },
+    {
+      "id": 5,
+      "userId": 0,
+      "name": "Lucas Müller",
+      "avatar": "🧑‍🔬",
+      "xp": 210,
+      "streak": 3,
+      "language": "🇩🇪",
+      "change": "down",
+      "league": "Silver"
+    },
+    {
+      "id": 6,
+      "userId": 0,
+      "name": "Yuki Tanaka",
+      "avatar": "👩‍🎨",
+      "xp": 185,
+      "streak": 14,
+      "language": "🇯🇵",
+      "change": "up",
+      "league": "Silver"
+    },
+    {
+      "id": 7,
+      "userId": 0,
+      "name": "Sofia Pereira",
+      "avatar": "👩‍💻",
+      "xp": 160,
+      "streak": 2,
+      "language": "🇵🇹",
+      "change": "down",
+      "league": "Bronze"
+    },
+    {
+      "id": 8,
+      "userId": 0,
+      "name": "Rahul Mehta",
+      "avatar": "🧑‍💼",
+      "xp": 140,
+      "streak": 6,
+      "language": "🇮🇳",
+      "change": "same",
+      "league": "Bronze"
+    },
+    {
+      "id": 9,
+      "userId": 0,
+      "name": "Emma Blanc",
+      "avatar": "👩",
+      "xp": 120,
+      "streak": 4,
+      "language": "🇫🇷",
+      "change": "down",
+      "league": "Bronze"
+    },
+    {
+      "id": 10,
+      "userId": 0,
+      "name": "Omar Hassan",
+      "avatar": "🧑",
+      "xp": 95,
+      "streak": 1,
+      "language": "🇸🇦",
+      "change": "up",
+      "league": "Bronze"
+    }
+  ]
+}
