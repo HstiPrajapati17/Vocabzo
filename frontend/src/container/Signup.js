@@ -46,7 +46,7 @@ const Signup = ({ navigate, onSignupDone }) => {
             <Card className="h_auth_card shadow-lg border-0">
               <Card.Body className="p-4 p-md-5">
                 <div className="text-center mb-4">
-                  <div className="h_auth_owl">🦉</div>
+                  <div className="h_auth_logo">V</div>
                   <h2 className="h_auth_title">Create Account</h2>
                   <p className="text-muted small">Join millions of learners worldwide</p>
                 </div>

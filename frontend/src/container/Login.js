@@ -42,7 +42,7 @@ const Login = ({ navigate, onLogin }) => {
             <Card className="h_auth_card shadow-lg border-0">
               <Card.Body className="p-4 p-md-5">
                 <div className="text-center mb-4">
-                  <div className="h_auth_owl">🦉</div>
+                  <div className="h_auth_logo">V</div>
                   <h2 className="h_auth_title">Welcome Back!</h2>
                   <p className="text-muted small">Log in to continue your learning journey</p>
                 </div>
@@ -98,7 +98,7 @@ const Login = ({ navigate, onLogin }) => {
                   </Button>
                 </Form>
 
-                <div className="h_demo_hint mt-3 p-3 rounded text-center" style={{ background: '#f0f9f0', border: '1px solid #c3e6c3' }}>
+                <div className="h_demo_hint mt-3 p-3 rounded text-center">
                   <small className="text-muted">
                     Demo account: <strong>demo@demo.com</strong> / <strong>demo123</strong>
                   </small>

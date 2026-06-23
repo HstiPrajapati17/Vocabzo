@@ -1,7 +1,4 @@
-/* App-level resets — all custom styles are in style/H_style.css */
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  padding: 0;
-  background: #f8f9fa;
+/* App-level — design tokens live in style/H_style.css */
+* {
+  box-sizing: border-box;
 }
