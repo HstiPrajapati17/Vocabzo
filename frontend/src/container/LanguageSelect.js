@@ -92,7 +92,7 @@ const LanguageSelect = ({ navigate, user, onDone }) => {
         </div>
 
         <div className="text-center mb-5">
-          <div className="h_auth_owl">🦉</div>
+          <div className="h_auth_logo">V</div>
           <h2 className="h_section_title">{stepTitles[step - 1]}</h2>
           {step === 1 && <p className="text-muted">Choose a language and start your journey</p>}
           {step === 2 && <p className="text-muted">Select your current level</p>}

@@ -31,17 +31,14 @@
       "email": "demo@demo.com",
       "password": "demo123",
       "avatar": "🧑‍💻",
-      "xp": 340,
+      "xp": 390,
       "streak": 7,
-      "hearts": 5,
+      "hearts": 4,
       "language": "Spanish",
       "level": "Beginner",
       "dailyGoal": "Regular",
-      "completedLessons": [
-        1,
-        2
-      ],
-      "activeLesson": 3,
+      "completedLessons": [],
+      "activeLesson": 1,
       "joinedDate": "2025-06-01"
     },
     {
@@ -610,7 +607,7 @@
       "userId": 2,
       "name": "Demo User",
       "avatar": "🧑‍💻",
-      "xp": 340,
+      "xp": 390,
       "streak": 7,
       "language": "🇪🇸",
       "change": "same",

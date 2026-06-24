@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card, Badge, Button, ProgressBar, Tab, Nav } from 'react-bootstrap';
+import { Row, Col, Card, Badge, Button, ProgressBar, Tab, Nav } from 'react-bootstrap';
 import {
   Flame, Star, Heart, Trophy, Medal,
   Edit, Check, Globe, Calendar,
-  BarChart, BookOpen
+  BarChart, BookOpen, CheckCircle
 } from 'lucide-react';
 import { updateUser } from '../api';
 
@@ -52,8 +52,7 @@ const Profile = ({ navigate, user, refreshUser }) => {
   };
 
   return (
-    <div className="h_profile_page py-4">
-      <Container>
+    <div className="h_profile_inner">
         <Row className="g-4">
           {/* Profile Card */}
           <Col xs={12} lg={4}>
@@ -204,7 +203,7 @@ const Profile = ({ navigate, user, refreshUser }) => {
                     {[
                       { label: 'Total XP', value: user?.xp || 0, icon: <Star className="h_icon_xp" size={20} />, change: 'Earned' },
                       { label: 'Best Streak', value: `${user?.streak || 0} days`, icon: <Flame className="h_icon_fire" size={20} />, change: user?.streak > 0 ? 'Active' : 'Start!' },
-                      { label: 'Lessons Done', value: completedLessons.length, icon: <Check className="text-success" size={20} />, change: `${completedLessons.length} total` },
+                      { label: 'Lessons Done', value: completedLessons.length, icon: <CheckCircle style={{ color: 'var(--success)' }} size={20} />, change: `${completedLessons.length} total` },
                     ].map((s, i) => (
                       <Col xs={12} sm={4} key={i}>
                         <Card className="h_summary_card border-0 shadow-sm text-center">
@@ -271,7 +270,6 @@ const Profile = ({ navigate, user, refreshUser }) => {
             </Tab.Container>
           </Col>
         </Row>
-      </Container>
     </div>
   );
 };
