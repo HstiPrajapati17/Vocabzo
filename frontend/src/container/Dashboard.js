@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "react-bootstrap";
 import {
@@ -38,22 +38,12 @@ const Dashboard = () => {
   const [lessons, setLessons] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showInstructions, setShowInstructions] = useState(false);
-  const [localActiveLesson, setLocalActiveLesson] = useState(null);
 
   useEffect(() => {
     setLoading(true);
     getLessons(user?.language || 'English')
       .then(data => {
         setLessons(data);
-        // Set activeLesson to first lesson ID if not set or if language changed
-        if (data.length > 0) {
-          const firstLessonId = data[0].id;
-          setLocalActiveLesson(firstLessonId);
-          if (!user?.activeLesson || user?.language !== data[0].language) {
-            // The first lesson should be active by default
-            updateUser(user.id, { activeLesson: firstLessonId }).then(refreshUser);
-          }
-        }
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -64,8 +54,12 @@ const Dashboard = () => {
     handleLessonStats?.({ total: lessons.length, completed });
   }, [lessons.length, user?.completedLessons, handleLessonStats]);
 
-  const completedLessons = user?.completedLessons || [];
-  const activeLesson = localActiveLesson || user?.activeLesson || 1;
+  const completedLessons = user?.completedLessons?.map(id => parseInt(id)) || [];
+  // Calculate active lesson dynamically based on completed lessons
+  const activeLesson = useMemo(() => {
+    const nextLesson = lessons.find(lesson => !completedLessons.includes(lesson.id));
+    return nextLesson ? nextLesson.id : (lessons[0]?.id || 1);
+  }, [lessons, completedLessons]);
 
   const handleLessonClick = (lesson) => {
     const isCompleted = completedLessons.includes(lesson.id);

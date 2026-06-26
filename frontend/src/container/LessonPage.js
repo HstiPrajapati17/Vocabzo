@@ -33,7 +33,10 @@ const LessonPage = () => {
         setQuestions(data);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch(err => {
+        console.error('Error fetching questions:', err);
+        setLoading(false);
+      });
   }, [lessonId]);
 
   const q = questions[current];
@@ -80,15 +83,16 @@ const LessonPage = () => {
     if (!user?.id) return;
     const passed = score >= Math.ceil(questions.length * 0.6);
     if (!passed) return;
-    const completedLessons = user.completedLessons || [];
-    if (completedLessons.includes(lessonId)) return;
+    const completedLessons = (user.completedLessons || []).map(id => parseInt(id));
+    const lessonIdNum = parseInt(lessonId);
+    if (completedLessons.includes(lessonIdNum)) return;
 
     const updates = {
-      completedLessons: [...completedLessons, lessonId],
+      completedLessons: [...completedLessons, lessonIdNum],
       xp: (user.xp || 0) + earnedXP + 10,
       streak: (user.streak || 0) + (user.streak === 0 ? 1 : 0),
       hearts,
-      activeLesson: lessonId + 1,
+      activeLesson: lessonIdNum + 1,
     };
 
     try {
@@ -118,6 +122,7 @@ const LessonPage = () => {
       </div>
     );
   }
+ 
 
   if (questions.length === 0) {
     return (
@@ -127,10 +132,15 @@ const LessonPage = () => {
             <XCircle size={64} style={{ color: 'var(--muted)' }} />
           </div>
           <h4 className="fw-bold mt-3">No questions yet</h4>
-          <Button className="h_btn_get_started mt-3" onClick={() => navigate('dashboard')}>Back to Learn</Button>
+          <Button className="h_btn_get_started mt-3" onClick={() => navigate('/dashboard')}>Back to Learn</Button>
         </div>
       </div>
     );
+  }
+
+  // Safety check: if current question doesn't exist, reset to first question
+  if (!q && questions.length > 0) {
+    setCurrent(0);
   }
 
   if (hearts === 0 && !showResult) {
@@ -142,7 +152,7 @@ const LessonPage = () => {
           </div>
           <h3 className="fw-bold mb-2">Out of Hearts!</h3>
           <p className="text-muted mb-4">Try again to keep practicing!</p>
-          <Button className="h_btn_get_started me-2 mb-2" onClick={() => navigate('dashboard')}>Back to Learn</Button>
+          <Button className="h_btn_get_started me-2 mb-2" onClick={() => navigate('/dashboard')}>Back to Learn</Button>
           <Button variant="outline-secondary" className="h_btn_outline mb-2" onClick={resetLesson}>Try Again</Button>
         </div>
       </div>
@@ -173,7 +183,7 @@ const LessonPage = () => {
           </div>
           {passed && <Badge className="h_xp_reward_badge mb-4">+{earnedXP} XP earned</Badge>}
           <div className="d-flex flex-column flex-sm-row gap-2 justify-content-center">
-            <Button className="h_btn_get_started" onClick={() => navigate('dashboard')}>Continue</Button>
+            <Button className="h_btn_get_started" onClick={() => navigate('/dashboard')}>Continue</Button>
             {!passed && <Button variant="outline-secondary" className="h_btn_outline" onClick={resetLesson}>Try Again</Button>}
           </div>
         </div>

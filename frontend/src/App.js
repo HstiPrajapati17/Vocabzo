@@ -20,6 +20,8 @@ import SettingsPage from './container/SettingPage';
 import AboutUs from './container/AboutUs';
 import Terms from './container/Terms';
 import Privacy from './container/Privacy';
+import Blog from './container/Blog';
+import Help from './container/Help';
 import Letters from './container/Letters';
 import Onboarding from './container/Onboarding';
 
@@ -190,10 +192,12 @@ function App() {
                 <ShellLayout><SettingsPage /></ShellLayout>
               </ProtectedRoute>
             } />
-            <Route path="/about" element={<AboutUs />} />
+            <Route path="/about" element={<PublicLayout><AboutUs /></PublicLayout>} />
             <Route path="/onboarding" element={<Onboarding />} />
-            <Route path="/terms" element={<Terms />} />
-            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<PublicLayout><Terms /></PublicLayout>} />
+            <Route path="/privacy" element={<PublicLayout><Privacy /></PublicLayout>} />
+            <Route path="/blog" element={<PublicLayout><Blog /></PublicLayout>} />
+            <Route path="/help" element={<PublicLayout><Help /></PublicLayout>} />
             <Route path="/lesson/:lessonId" element={
               <ProtectedRoute>
                 <LessonLayout><LessonPage /></LessonLayout>
@@ -206,7 +210,7 @@ function App() {
   );
 }
 
-const PublicLayout = () => {
+const PublicLayout = ({ children }) => {
   const navigate = useNavigate();
   const { user } = useApp();
   const location = useLocation();
@@ -216,7 +220,7 @@ const PublicLayout = () => {
     <>
       <Navbar navigate={navigate} isLoggedIn={false} currentPage={currentPage} />
       <main className="h_main_content">
-        <Home navigate={navigate} />
+        {children}
       </main>
     </>
   );

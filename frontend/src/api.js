@@ -60,7 +60,8 @@ export const getLessons = async (language = 'English') => {
 
 export const getQuestionsByLesson = async (lessonId) => {
   const res = await fetch(`${BASE_URL}/questions?lessonId=${lessonId}`);
-  return res.json();
+  const data = await res.json();
+  return data;
 };
 
 // ===== LEADERBOARD =====

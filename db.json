@@ -33,7 +33,7 @@
       "avatar": "🧑",
       "xp": 450,
       "streak": 7,
-      "hearts": 4,
+      "hearts": 5,
       "language": "English",
       "level": "Beginner",
       "dailyGoal": "Regular",
@@ -48,14 +48,16 @@
       "email": "yatri@gmail.com",
       "password": "123456",
       "avatar": "🧑",
-      "xp": 0,
-      "streak": 0,
+      "xp": 180,
+      "streak": 1,
       "hearts": 5,
-      "language": "German",
+      "language": "English",
       "level": "Intermediate",
       "dailyGoal": "Casual",
-      "completedLessons": [],
-      "activeLesson": 1,
+      "completedLessons": [
+        13
+      ],
+      "activeLesson": 14,
       "joinedDate": "2026-06-23",
       "id": 3
     }
@@ -2353,6 +2355,2061 @@
       ],
       "correct": 1,
       "explanation": "\"Pamiątka\" jest przedmiotem pamiątkowym z miejsca.",
+      "language": "Polish"
+    },
+    {
+      "id": 121,
+      "lessonId": 7,
+      "type": "multiple-choice",
+      "question": "How do you say \"Water\" in Spanish?",
+      "options": [
+        "Leche",
+        "Agua",
+        "Jugo",
+        "Café"
+      ],
+      "correct": 1,
+      "explanation": "\"Agua\" means water in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 122,
+      "lessonId": 7,
+      "type": "translate",
+      "question": "What does \"Pan\" mean?",
+      "options": [
+        "Bread",
+        "Water",
+        "Milk",
+        "Cheese"
+      ],
+      "correct": 0,
+      "explanation": "\"Pan\" means bread in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 123,
+      "lessonId": 7,
+      "type": "multiple-choice",
+      "question": "How do you say \"Milk\" in Spanish?",
+      "options": [
+        "Queso",
+        "Leche",
+        "Huevo",
+        "Carne"
+      ],
+      "correct": 1,
+      "explanation": "\"Leche\" means milk in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 124,
+      "lessonId": 7,
+      "type": "multiple-choice",
+      "question": "What does \"Manzana\" mean?",
+      "options": [
+        "Orange",
+        "Banana",
+        "Apple",
+        "Grape"
+      ],
+      "correct": 2,
+      "explanation": "\"Manzana\" means apple in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 125,
+      "lessonId": 7,
+      "type": "translate",
+      "question": "Translate: \"Chicken\" to Spanish",
+      "options": [
+        "Pollo",
+        "Pescado",
+        "Cerdo",
+        "Res"
+      ],
+      "correct": 0,
+      "explanation": "\"Pollo\" means chicken in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 126,
+      "lessonId": 8,
+      "type": "multiple-choice",
+      "question": "How do you say \"Airplane\" in Spanish?",
+      "options": [
+        "Barco",
+        "Tren",
+        "Avión",
+        "Autobús"
+      ],
+      "correct": 2,
+      "explanation": "\"Avión\" means airplane in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 127,
+      "lessonId": 8,
+      "type": "translate",
+      "question": "What does \"Hotel\" mean?",
+      "options": [
+        "Hotel",
+        "Restaurant",
+        "Beach",
+        "Park"
+      ],
+      "correct": 0,
+      "explanation": "\"Hotel\" is the same in Spanish and English.",
+      "language": "Spanish"
+    },
+    {
+      "id": 128,
+      "lessonId": 8,
+      "type": "multiple-choice",
+      "question": "How do you say \"Ticket\" in Spanish?",
+      "options": [
+        "Boleto",
+        "Pasaporte",
+        "Maleta",
+        "Mapa"
+      ],
+      "correct": 0,
+      "explanation": "\"Boleto\" means ticket in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 129,
+      "lessonId": 8,
+      "type": "multiple-choice",
+      "question": "What does \"Playa\" mean?",
+      "options": [
+        "Mountain",
+        "Beach",
+        "Forest",
+        "Desert"
+      ],
+      "correct": 1,
+      "explanation": "\"Playa\" means beach in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 130,
+      "lessonId": 8,
+      "type": "translate",
+      "question": "Translate: \"Airport\" to Spanish",
+      "options": [
+        "Aeropuerto",
+        "Estación",
+        "Puerto",
+        "Terminal"
+      ],
+      "correct": 0,
+      "explanation": "\"Aeropuerto\" means airport in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 131,
+      "lessonId": 9,
+      "type": "multiple-choice",
+      "question": "How do you say \"Left\" in Spanish?",
+      "options": [
+        "Derecha",
+        "Izquierda",
+        "Recto",
+        "Atrás"
+      ],
+      "correct": 1,
+      "explanation": "\"Izquierda\" means left in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 132,
+      "lessonId": 9,
+      "type": "translate",
+      "question": "What does \"Derecha\" mean?",
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
+      "correct": 1,
+      "explanation": "\"Derecha\" means right in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 133,
+      "lessonId": 9,
+      "type": "multiple-choice",
+      "question": "How do you say \"North\" in Spanish?",
+      "options": [
+        "Sur",
+        "Este",
+        "Norte",
+        "Oeste"
+      ],
+      "correct": 2,
+      "explanation": "\"Norte\" means north in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 134,
+      "lessonId": 9,
+      "type": "multiple-choice",
+      "question": "What does \"Mapa\" mean?",
+      "options": [
+        "Compass",
+        "Map",
+        "GPS",
+        "Sign"
+      ],
+      "correct": 1,
+      "explanation": "\"Mapa\" means map in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 135,
+      "lessonId": 9,
+      "type": "translate",
+      "question": "Translate: \"Street\" to Spanish",
+      "options": [
+        "Calle",
+        "Avenida",
+        "Plaza",
+        "Camino"
+      ],
+      "correct": 0,
+      "explanation": "\"Calle\" means street in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 136,
+      "lessonId": 10,
+      "type": "multiple-choice",
+      "question": "How do you say \"My name is\" in Spanish?",
+      "options": [
+        "Me llamo",
+        "Tengo",
+        "Vivo",
+        "Trabajo"
+      ],
+      "correct": 0,
+      "explanation": "\"Me llamo\" means \"my name is\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 137,
+      "lessonId": 10,
+      "type": "translate",
+      "question": "What does \"Yo soy\" mean?",
+      "options": [
+        "I have",
+        "I am",
+        "I want",
+        "I need"
+      ],
+      "correct": 1,
+      "explanation": "\"Yo soy\" means \"I am\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 138,
+      "lessonId": 10,
+      "type": "multiple-choice",
+      "question": "How do you say \"Nice to meet you\" in Spanish?",
+      "options": [
+        "Adiós",
+        "Hola",
+        "Mucho gusto",
+        "Gracias"
+      ],
+      "correct": 2,
+      "explanation": "\"Mucho gusto\" means \"nice to meet you\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 139,
+      "lessonId": 10,
+      "type": "multiple-choice",
+      "question": "What does \"Tengo\" mean?",
+      "options": [
+        "I am",
+        "I have",
+        "I want",
+        "I like"
+      ],
+      "correct": 1,
+      "explanation": "\"Tengo\" means \"I have\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 140,
+      "lessonId": 10,
+      "type": "translate",
+      "question": "Translate: \"I live in\" to Spanish",
+      "options": [
+        "Vivo en",
+        "Trabajo en",
+        "Estudio en",
+        "Voy a"
+      ],
+      "correct": 0,
+      "explanation": "\"Vivo en\" means \"I live in\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 141,
+      "lessonId": 11,
+      "type": "multiple-choice",
+      "question": "How do you say \"Store\" in Spanish?",
+      "options": [
+        "Casa",
+        "Tienda",
+        "Escuela",
+        "Hospital"
+      ],
+      "correct": 1,
+      "explanation": "\"Tienda\" means store in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 142,
+      "lessonId": 11,
+      "type": "translate",
+      "question": "What does \"Comprar\" mean?",
+      "options": [
+        "To sell",
+        "To buy",
+        "To eat",
+        "To drink"
+      ],
+      "correct": 1,
+      "explanation": "\"Comprar\" means \"to buy\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 143,
+      "lessonId": 11,
+      "type": "multiple-choice",
+      "question": "How do you say \"Money\" in Spanish?",
+      "options": [
+        "Dinero",
+        "Tarjeta",
+        "Bolsa",
+        "Cambio"
+      ],
+      "correct": 0,
+      "explanation": "\"Dinero\" means money in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 144,
+      "lessonId": 11,
+      "type": "multiple-choice",
+      "question": "What does \"Barato\" mean?",
+      "options": [
+        "Expensive",
+        "Cheap",
+        "Beautiful",
+        "Ugly"
+      ],
+      "correct": 1,
+      "explanation": "\"Barato\" means cheap in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 145,
+      "lessonId": 11,
+      "type": "translate",
+      "question": "Translate: \"How much?\" to Spanish",
+      "options": [
+        "Cuánto",
+        "Dónde",
+        "Cuándo",
+        "Por qué"
+      ],
+      "correct": 0,
+      "explanation": "\"Cuánto\" means \"how much\" in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 146,
+      "lessonId": 12,
+      "type": "multiple-choice",
+      "question": "How do you say \"Office\" in Spanish?",
+      "options": [
+        "Oficina",
+        "Casa",
+        "Parque",
+        "Gimnasio"
+      ],
+      "correct": 0,
+      "explanation": "\"Oficina\" means office in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 147,
+      "lessonId": 12,
+      "type": "translate",
+      "question": "What does \"Trabajo\" mean?",
+      "options": [
+        "School",
+        "Work",
+        "Home",
+        "Vacation"
+      ],
+      "correct": 1,
+      "explanation": "\"Trabajo\" means work in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 148,
+      "lessonId": 12,
+      "type": "multiple-choice",
+      "question": "How do you say \"Boss\" in Spanish?",
+      "options": [
+        "Amigo",
+        "Jefe",
+        "Hermano",
+        "Padre"
+      ],
+      "correct": 1,
+      "explanation": "\"Jefe\" means boss in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 149,
+      "lessonId": 12,
+      "type": "multiple-choice",
+      "question": "What does \"Empresa\" mean?",
+      "options": [
+        "Country",
+        "Company",
+        "City",
+        "Town"
+      ],
+      "correct": 1,
+      "explanation": "\"Empresa\" means company in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 150,
+      "lessonId": 12,
+      "type": "translate",
+      "question": "Translate: \"Meeting\" to Spanish",
+      "options": [
+        "Reunión",
+        "Fiesta",
+        "Cena",
+        "Almuerzo"
+      ],
+      "correct": 0,
+      "explanation": "\"Reunión\" means meeting in Spanish.",
+      "language": "Spanish"
+    },
+    {
+      "id": 151,
+      "lessonId": 17,
+      "type": "multiple-choice",
+      "question": "How do you say \"Water\" in English?",
+      "options": [
+        "Milk",
+        "Water",
+        "Juice",
+        "Tea"
+      ],
+      "correct": 1,
+      "explanation": "\"Water\" is the liquid we drink.",
+      "language": "English"
+    },
+    {
+      "id": 152,
+      "lessonId": 17,
+      "type": "translate",
+      "question": "What does \"Bread\" mean?",
+      "options": [
+        "Rice",
+        "Bread",
+        "Pasta",
+        "Noodles"
+      ],
+      "correct": 1,
+      "explanation": "\"Bread\" is a common food made from flour.",
+      "language": "English"
+    },
+    {
+      "id": 153,
+      "lessonId": 17,
+      "type": "multiple-choice",
+      "question": "How do you say \"Milk\" in English?",
+      "options": [
+        "Cheese",
+        "Milk",
+        "Butter",
+        "Cream"
+      ],
+      "correct": 1,
+      "explanation": "\"Milk\" comes from cows.",
+      "language": "English"
+    },
+    {
+      "id": 154,
+      "lessonId": 17,
+      "type": "multiple-choice",
+      "question": "What does \"Apple\" mean?",
+      "options": [
+        "Orange",
+        "Banana",
+        "Apple",
+        "Grape"
+      ],
+      "correct": 2,
+      "explanation": "\"Apple\" is a red or green fruit.",
+      "language": "English"
+    },
+    {
+      "id": 155,
+      "lessonId": 17,
+      "type": "translate",
+      "question": "Translate: \"Chicken\" to English",
+      "options": [
+        "Beef",
+        "Pork",
+        "Chicken",
+        "Fish"
+      ],
+      "correct": 2,
+      "explanation": "\"Chicken\" is a common poultry meat.",
+      "language": "English"
+    },
+    {
+      "id": 156,
+      "lessonId": 18,
+      "type": "multiple-choice",
+      "question": "How do you say \"Airplane\" in English?",
+      "options": [
+        "Boat",
+        "Train",
+        "Airplane",
+        "Bus"
+      ],
+      "correct": 2,
+      "explanation": "\"Airplane\" flies in the sky.",
+      "language": "English"
+    },
+    {
+      "id": 157,
+      "lessonId": 18,
+      "type": "translate",
+      "question": "What does \"Hotel\" mean?",
+      "options": [
+        "Restaurant",
+        "Hotel",
+        "Beach",
+        "Park"
+      ],
+      "correct": 1,
+      "explanation": "\"Hotel\" is a place to stay when traveling.",
+      "language": "English"
+    },
+    {
+      "id": 158,
+      "lessonId": 18,
+      "type": "multiple-choice",
+      "question": "How do you say \"Ticket\" in English?",
+      "options": [
+        "Passport",
+        "Ticket",
+        "Luggage",
+        "Map"
+      ],
+      "correct": 1,
+      "explanation": "\"Ticket\" is needed for travel or events.",
+      "language": "English"
+    },
+    {
+      "id": 159,
+      "lessonId": 18,
+      "type": "multiple-choice",
+      "question": "What does \"Beach\" mean?",
+      "options": [
+        "Mountain",
+        "Beach",
+        "Forest",
+        "Desert"
+      ],
+      "correct": 1,
+      "explanation": "\"Beach\" is where land meets water.",
+      "language": "English"
+    },
+    {
+      "id": 160,
+      "lessonId": 18,
+      "type": "translate",
+      "question": "Translate: \"Airport\" to English",
+      "options": [
+        "Station",
+        "Airport",
+        "Port",
+        "Terminal"
+      ],
+      "correct": 1,
+      "explanation": "\"Airport\" is where planes take off and land.",
+      "language": "English"
+    },
+    {
+      "id": 161,
+      "lessonId": 19,
+      "type": "multiple-choice",
+      "question": "How do you say \"Left\" in English?",
+      "options": [
+        "Right",
+        "Left",
+        "Straight",
+        "Back"
+      ],
+      "correct": 1,
+      "explanation": "\"Left\" is the opposite of right.",
+      "language": "English"
+    },
+    {
+      "id": 162,
+      "lessonId": 19,
+      "type": "translate",
+      "question": "What does \"Right\" mean?",
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
+      "correct": 1,
+      "explanation": "\"Right\" is the opposite of left.",
+      "language": "English"
+    },
+    {
+      "id": 163,
+      "lessonId": 19,
+      "type": "multiple-choice",
+      "question": "How do you say \"North\" in English?",
+      "options": [
+        "South",
+        "East",
+        "North",
+        "West"
+      ],
+      "correct": 2,
+      "explanation": "\"North\" is one of the four cardinal directions.",
+      "language": "English"
+    },
+    {
+      "id": 164,
+      "lessonId": 19,
+      "type": "multiple-choice",
+      "question": "What does \"Map\" mean?",
+      "options": [
+        "Compass",
+        "Map",
+        "GPS",
+        "Sign"
+      ],
+      "correct": 1,
+      "explanation": "\"Map\" shows locations and directions.",
+      "language": "English"
+    },
+    {
+      "id": 165,
+      "lessonId": 19,
+      "type": "translate",
+      "question": "Translate: \"Street\" to English",
+      "options": [
+        "Avenue",
+        "Street",
+        "Plaza",
+        "Road"
+      ],
+      "correct": 1,
+      "explanation": "\"Street\" is a road in a city.",
+      "language": "English"
+    },
+    {
+      "id": 166,
+      "lessonId": 20,
+      "type": "multiple-choice",
+      "question": "How do you say \"My name is\" in English?",
+      "options": [
+        "I have",
+        "My name is",
+        "I live",
+        "I work"
+      ],
+      "correct": 1,
+      "explanation": "\"My name is\" is used for introductions.",
+      "language": "English"
+    },
+    {
+      "id": 167,
+      "lessonId": 20,
+      "type": "translate",
+      "question": "What does \"I am\" mean?",
+      "options": [
+        "I have",
+        "I am",
+        "I want",
+        "I need"
+      ],
+      "correct": 1,
+      "explanation": "\"I am\" is used to describe yourself.",
+      "language": "English"
+    },
+    {
+      "id": 168,
+      "lessonId": 20,
+      "type": "multiple-choice",
+      "question": "How do you say \"Nice to meet you\" in English?",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Nice to meet you",
+        "Thank you"
+      ],
+      "correct": 2,
+      "explanation": "\"Nice to meet you\" is a polite greeting.",
+      "language": "English"
+    },
+    {
+      "id": 169,
+      "lessonId": 20,
+      "type": "multiple-choice",
+      "question": "What does \"I have\" mean?",
+      "options": [
+        "I am",
+        "I have",
+        "I want",
+        "I like"
+      ],
+      "correct": 1,
+      "explanation": "\"I have\" indicates possession.",
+      "language": "English"
+    },
+    {
+      "id": 170,
+      "lessonId": 20,
+      "type": "translate",
+      "question": "Translate: \"I live in\" to English",
+      "options": [
+        "I live in",
+        "I work in",
+        "I study in",
+        "I go to"
+      ],
+      "correct": 0,
+      "explanation": "\"I live in\" describes your residence.",
+      "language": "English"
+    },
+    {
+      "id": 171,
+      "lessonId": 21,
+      "type": "multiple-choice",
+      "question": "How do you say \"Store\" in English?",
+      "options": [
+        "House",
+        "Store",
+        "School",
+        "Hospital"
+      ],
+      "correct": 1,
+      "explanation": "\"Store\" is where you buy things.",
+      "language": "English"
+    },
+    {
+      "id": 172,
+      "lessonId": 21,
+      "type": "translate",
+      "question": "What does \"To buy\" mean?",
+      "options": [
+        "To sell",
+        "To buy",
+        "To eat",
+        "To drink"
+      ],
+      "correct": 1,
+      "explanation": "\"To buy\" means to purchase something.",
+      "language": "English"
+    },
+    {
+      "id": 173,
+      "lessonId": 21,
+      "type": "multiple-choice",
+      "question": "How do you say \"Money\" in English?",
+      "options": [
+        "Money",
+        "Card",
+        "Bag",
+        "Change"
+      ],
+      "correct": 0,
+      "explanation": "\"Money\" is used for payment.",
+      "language": "English"
+    },
+    {
+      "id": 174,
+      "lessonId": 21,
+      "type": "multiple-choice",
+      "question": "What does \"Cheap\" mean?",
+      "options": [
+        "Expensive",
+        "Cheap",
+        "Beautiful",
+        "Ugly"
+      ],
+      "correct": 1,
+      "explanation": "\"Cheap\" means low in price.",
+      "language": "English"
+    },
+    {
+      "id": 175,
+      "lessonId": 21,
+      "type": "translate",
+      "question": "Translate: \"How much?\" to English",
+      "options": [
+        "How much?",
+        "Where?",
+        "When?",
+        "Why?"
+      ],
+      "correct": 0,
+      "explanation": "\"How much?\" asks about price.",
+      "language": "English"
+    },
+    {
+      "id": 176,
+      "lessonId": 27,
+      "type": "multiple-choice",
+      "question": "How do you say \"Water\" in German?",
+      "options": [
+        "Milch",
+        "Wasser",
+        "Saft",
+        "Kaffee"
+      ],
+      "correct": 1,
+      "explanation": "\"Wasser\" means water in German.",
+      "language": "German"
+    },
+    {
+      "id": 177,
+      "lessonId": 27,
+      "type": "translate",
+      "question": "What does \"Brot\" mean?",
+      "options": [
+        "Rice",
+        "Bread",
+        "Pasta",
+        "Noodles"
+      ],
+      "correct": 1,
+      "explanation": "\"Brot\" means bread in German.",
+      "language": "German"
+    },
+    {
+      "id": 178,
+      "lessonId": 27,
+      "type": "multiple-choice",
+      "question": "How do you say \"Milk\" in German?",
+      "options": [
+        "Käse",
+        "Milch",
+        "Butter",
+        "Sahne"
+      ],
+      "correct": 1,
+      "explanation": "\"Milch\" means milk in German.",
+      "language": "German"
+    },
+    {
+      "id": 179,
+      "lessonId": 27,
+      "type": "multiple-choice",
+      "question": "What does \"Apfel\" mean?",
+      "options": [
+        "Orange",
+        "Banana",
+        "Apple",
+        "Grape"
+      ],
+      "correct": 2,
+      "explanation": "\"Apfel\" means apple in German.",
+      "language": "German"
+    },
+    {
+      "id": 180,
+      "lessonId": 27,
+      "type": "translate",
+      "question": "Translate: \"Chicken\" to German",
+      "options": [
+        "Rind",
+        "Schwein",
+        "Huhn",
+        "Fisch"
+      ],
+      "correct": 2,
+      "explanation": "\"Huhn\" means chicken in German.",
+      "language": "German"
+    },
+    {
+      "id": 181,
+      "lessonId": 28,
+      "type": "multiple-choice",
+      "question": "How do you say \"Airplane\" in German?",
+      "options": [
+        "Schiff",
+        "Zug",
+        "Flugzeug",
+        "Bus"
+      ],
+      "correct": 2,
+      "explanation": "\"Flugzeug\" means airplane in German.",
+      "language": "German"
+    },
+    {
+      "id": 182,
+      "lessonId": 28,
+      "type": "translate",
+      "question": "What does \"Hotel\" mean?",
+      "options": [
+        "Restaurant",
+        "Hotel",
+        "Strand",
+        "Park"
+      ],
+      "correct": 1,
+      "explanation": "\"Hotel\" is the same in German and English.",
+      "language": "German"
+    },
+    {
+      "id": 183,
+      "lessonId": 28,
+      "type": "multiple-choice",
+      "question": "How do you say \"Ticket\" in German?",
+      "options": [
+        "Fahrkarte",
+        "Pass",
+        "Koffer",
+        "Karte"
+      ],
+      "correct": 0,
+      "explanation": "\"Fahrkarte\" means ticket in German.",
+      "language": "German"
+    },
+    {
+      "id": 184,
+      "lessonId": 28,
+      "type": "multiple-choice",
+      "question": "What does \"Strand\" mean?",
+      "options": [
+        "Berg",
+        "Strand",
+        "Wald",
+        "Wüste"
+      ],
+      "correct": 1,
+      "explanation": "\"Strand\" means beach in German.",
+      "language": "German"
+    },
+    {
+      "id": 185,
+      "lessonId": 28,
+      "type": "translate",
+      "question": "Translate: \"Airport\" to German",
+      "options": [
+        "Bahnhof",
+        "Flughafen",
+        "Hafen",
+        "Terminal"
+      ],
+      "correct": 1,
+      "explanation": "\"Flughafen\" means airport in German.",
+      "language": "German"
+    },
+    {
+      "id": 186,
+      "lessonId": 29,
+      "type": "multiple-choice",
+      "question": "How do you say \"Left\" in German?",
+      "options": [
+        "Rechts",
+        "Links",
+        "Geradeaus",
+        "Zurück"
+      ],
+      "correct": 1,
+      "explanation": "\"Links\" means left in German.",
+      "language": "German"
+    },
+    {
+      "id": 187,
+      "lessonId": 29,
+      "type": "translate",
+      "question": "What does \"Rechts\" mean?",
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
+      "correct": 1,
+      "explanation": "\"Rechts\" means right in German.",
+      "language": "German"
+    },
+    {
+      "id": 188,
+      "lessonId": 29,
+      "type": "multiple-choice",
+      "question": "How do you say \"North\" in German?",
+      "options": [
+        "Süden",
+        "Osten",
+        "Norden",
+        "Westen"
+      ],
+      "correct": 2,
+      "explanation": "\"Norden\" means north in German.",
+      "language": "German"
+    },
+    {
+      "id": 189,
+      "lessonId": 29,
+      "type": "multiple-choice",
+      "question": "What does \"Karte\" mean?",
+      "options": [
+        "Compass",
+        "Map",
+        "GPS",
+        "Sign"
+      ],
+      "correct": 1,
+      "explanation": "\"Karte\" means map in German.",
+      "language": "German"
+    },
+    {
+      "id": 190,
+      "lessonId": 29,
+      "type": "translate",
+      "question": "Translate: \"Street\" to German",
+      "options": [
+        "Straße",
+        "Allee",
+        "Platz",
+        "Weg"
+      ],
+      "correct": 0,
+      "explanation": "\"Straße\" means street in German.",
+      "language": "German"
+    },
+    {
+      "id": 191,
+      "lessonId": 30,
+      "type": "multiple-choice",
+      "question": "How do you say \"My name is\" in German?",
+      "options": [
+        "Ich habe",
+        "Ich heiße",
+        "Ich wohne",
+        "Ich arbeite"
+      ],
+      "correct": 1,
+      "explanation": "\"Ich heiße\" means \"my name is\" in German.",
+      "language": "German"
+    },
+    {
+      "id": 192,
+      "lessonId": 30,
+      "type": "translate",
+      "question": "What does \"Ich bin\" mean?",
+      "options": [
+        "I have",
+        "I am",
+        "I want",
+        "I need"
+      ],
+      "correct": 1,
+      "explanation": "\"Ich bin\" means \"I am\" in German.",
+      "language": "German"
+    },
+    {
+      "id": 193,
+      "lessonId": 30,
+      "type": "multiple-choice",
+      "question": "How do you say \"Nice to meet you\" in German?",
+      "options": [
+        "Auf Wiedersehen",
+        "Hallo",
+        "Freut mich",
+        "Danke"
+      ],
+      "correct": 2,
+      "explanation": "\"Freut mich\" means \"nice to meet you\" in German.",
+      "language": "German"
+    },
+    {
+      "id": 194,
+      "lessonId": 30,
+      "type": "multiple-choice",
+      "question": "What does \"Ich habe\" mean?",
+      "options": [
+        "I am",
+        "I have",
+        "I want",
+        "I like"
+      ],
+      "correct": 1,
+      "explanation": "\"Ich habe\" means \"I have\" in German.",
+      "language": "German"
+    },
+    {
+      "id": 195,
+      "lessonId": 30,
+      "type": "translate",
+      "question": "Translate: \"I live in\" to German",
+      "options": [
+        "Ich wohne in",
+        "Ich arbeite in",
+        "Ich studiere in",
+        "Ich gehe zu"
+      ],
+      "correct": 0,
+      "explanation": "\"Ich wohne in\" means \"I live in\" in German.",
+      "language": "German"
+    },
+    {
+      "id": 196,
+      "lessonId": 36,
+      "type": "multiple-choice",
+      "question": "How do you say \"Water\" in French?",
+      "options": [
+        "Lait",
+        "Eau",
+        "Jus",
+        "Café"
+      ],
+      "correct": 1,
+      "explanation": "\"Eau\" means water in French.",
+      "language": "French"
+    },
+    {
+      "id": 197,
+      "lessonId": 36,
+      "type": "translate",
+      "question": "What does \"Pain\" mean?",
+      "options": [
+        "Rice",
+        "Bread",
+        "Pasta",
+        "Noodles"
+      ],
+      "correct": 1,
+      "explanation": "\"Pain\" means bread in French.",
+      "language": "French"
+    },
+    {
+      "id": 198,
+      "lessonId": 36,
+      "type": "multiple-choice",
+      "question": "How do you say \"Milk\" in French?",
+      "options": [
+        "Fromage",
+        "Lait",
+        "Beurre",
+        "Crème"
+      ],
+      "correct": 1,
+      "explanation": "\"Lait\" means milk in French.",
+      "language": "French"
+    },
+    {
+      "id": 199,
+      "lessonId": 36,
+      "type": "multiple-choice",
+      "question": "What does \"Pomme\" mean?",
+      "options": [
+        "Orange",
+        "Banana",
+        "Apple",
+        "Grape"
+      ],
+      "correct": 2,
+      "explanation": "\"Pomme\" means apple in French.",
+      "language": "French"
+    },
+    {
+      "id": 200,
+      "lessonId": 36,
+      "type": "translate",
+      "question": "Translate: \"Chicken\" to French",
+      "options": [
+        "Bœuf",
+        "Porc",
+        "Poulet",
+        "Poisson"
+      ],
+      "correct": 2,
+      "explanation": "\"Poulet\" means chicken in French.",
+      "language": "French"
+    },
+    {
+      "id": 201,
+      "lessonId": 37,
+      "type": "multiple-choice",
+      "question": "How do you say \"Airplane\" in French?",
+      "options": [
+        "Bateau",
+        "Train",
+        "Avion",
+        "Bus"
+      ],
+      "correct": 2,
+      "explanation": "\"Avion\" means airplane in French.",
+      "language": "French"
+    },
+    {
+      "id": 202,
+      "lessonId": 37,
+      "type": "translate",
+      "question": "What does \"Hôtel\" mean?",
+      "options": [
+        "Restaurant",
+        "Hotel",
+        "Plage",
+        "Parc"
+      ],
+      "correct": 1,
+      "explanation": "\"Hôtel\" is the same in French and English.",
+      "language": "French"
+    },
+    {
+      "id": 203,
+      "lessonId": 37,
+      "type": "multiple-choice",
+      "question": "How do you say \"Ticket\" in French?",
+      "options": [
+        "Billet",
+        "Passeport",
+        "Valise",
+        "Carte"
+      ],
+      "correct": 0,
+      "explanation": "\"Billet\" means ticket in French.",
+      "language": "French"
+    },
+    {
+      "id": 204,
+      "lessonId": 37,
+      "type": "multiple-choice",
+      "question": "What does \"Plage\" mean?",
+      "options": [
+        "Montagne",
+        "Plage",
+        "Forêt",
+        "Désert"
+      ],
+      "correct": 1,
+      "explanation": "\"Plage\" means beach in French.",
+      "language": "French"
+    },
+    {
+      "id": 205,
+      "lessonId": 37,
+      "type": "translate",
+      "question": "Translate: \"Airport\" to French",
+      "options": [
+        "Gare",
+        "Aéroport",
+        "Port",
+        "Terminal"
+      ],
+      "correct": 1,
+      "explanation": "\"Aéroport\" means airport in French.",
+      "language": "French"
+    },
+    {
+      "id": 206,
+      "lessonId": 38,
+      "type": "multiple-choice",
+      "question": "How do you say \"Left\" in French?",
+      "options": [
+        "Droite",
+        "Gauche",
+        "Tout droit",
+        "En arrière"
+      ],
+      "correct": 1,
+      "explanation": "\"Gauche\" means left in French.",
+      "language": "French"
+    },
+    {
+      "id": 207,
+      "lessonId": 38,
+      "type": "translate",
+      "question": "What does \"Droite\" mean?",
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
+      "correct": 1,
+      "explanation": "\"Droite\" means right in French.",
+      "language": "French"
+    },
+    {
+      "id": 208,
+      "lessonId": 38,
+      "type": "multiple-choice",
+      "question": "How do you say \"North\" in French?",
+      "options": [
+        "Sud",
+        "Est",
+        "Nord",
+        "Ouest"
+      ],
+      "correct": 2,
+      "explanation": "\"Nord\" means north in French.",
+      "language": "French"
+    },
+    {
+      "id": 209,
+      "lessonId": 38,
+      "type": "multiple-choice",
+      "question": "What does \"Carte\" mean?",
+      "options": [
+        "Compass",
+        "Map",
+        "GPS",
+        "Sign"
+      ],
+      "correct": 1,
+      "explanation": "\"Carte\" means map in French.",
+      "language": "French"
+    },
+    {
+      "id": 210,
+      "lessonId": 38,
+      "type": "translate",
+      "question": "Translate: \"Street\" to French",
+      "options": [
+        "Avenue",
+        "Rue",
+        "Place",
+        "Chemin"
+      ],
+      "correct": 1,
+      "explanation": "\"Rue\" means street in French.",
+      "language": "French"
+    },
+    {
+      "id": 211,
+      "lessonId": 39,
+      "type": "multiple-choice",
+      "question": "How do you say \"My name is\" in French?",
+      "options": [
+        "J'ai",
+        "Je m'appelle",
+        "J'habite",
+        "Je travaille"
+      ],
+      "correct": 1,
+      "explanation": "\"Je m'appelle\" means \"my name is\" in French.",
+      "language": "French"
+    },
+    {
+      "id": 212,
+      "lessonId": 39,
+      "type": "translate",
+      "question": "What does \"Je suis\" mean?",
+      "options": [
+        "I have",
+        "I am",
+        "I want",
+        "I need"
+      ],
+      "correct": 1,
+      "explanation": "\"Je suis\" means \"I am\" in French.",
+      "language": "French"
+    },
+    {
+      "id": 213,
+      "lessonId": 39,
+      "type": "multiple-choice",
+      "question": "How do you say \"Nice to meet you\" in French?",
+      "options": [
+        "Au revoir",
+        "Bonjour",
+        "Enchanté",
+        "Merci"
+      ],
+      "correct": 2,
+      "explanation": "\"Enchanté\" means \"nice to meet you\" in French.",
+      "language": "French"
+    },
+    {
+      "id": 214,
+      "lessonId": 39,
+      "type": "multiple-choice",
+      "question": "What does \"J'ai\" mean?",
+      "options": [
+        "I am",
+        "I have",
+        "I want",
+        "I like"
+      ],
+      "correct": 1,
+      "explanation": "\"J'ai\" means \"I have\" in French.",
+      "language": "French"
+    },
+    {
+      "id": 215,
+      "lessonId": 39,
+      "type": "translate",
+      "question": "Translate: \"I live in\" to French",
+      "options": [
+        "J'habite à",
+        "Je travaille à",
+        "J'étudie à",
+        "Je vais à"
+      ],
+      "correct": 0,
+      "explanation": "\"J'habite à\" means \"I live in\" in French.",
+      "language": "French"
+    },
+    {
+      "id": 216,
+      "lessonId": 47,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"Left\" po polsku?",
+      "options": [
+        "Prawo",
+        "Lewo",
+        "Prosto",
+        "W tył"
+      ],
+      "correct": 1,
+      "explanation": "\"Lewo\" means left in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 217,
+      "lessonId": 47,
+      "type": "translate",
+      "question": "Co oznacza \"Prawo\"?",
+      "options": [
+        "Left",
+        "Right",
+        "Straight",
+        "Back"
+      ],
+      "correct": 1,
+      "explanation": "\"Prawo\" means right in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 218,
+      "lessonId": 47,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"North\" po polsku?",
+      "options": [
+        "Południe",
+        "Wschód",
+        "Północ",
+        "Zachód"
+      ],
+      "correct": 2,
+      "explanation": "\"Północ\" means north in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 219,
+      "lessonId": 47,
+      "type": "multiple-choice",
+      "question": "Co oznacza \"Mapa\"?",
+      "options": [
+        "Compass",
+        "Map",
+        "GPS",
+        "Sign"
+      ],
+      "correct": 1,
+      "explanation": "\"Mapa\" means map in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 220,
+      "lessonId": 47,
+      "type": "translate",
+      "question": "Przetłumacz: \"Street\" na polski",
+      "options": [
+        "Ulica",
+        "Aleja",
+        "Plac",
+        "Droga"
+      ],
+      "correct": 0,
+      "explanation": "\"Ulica\" means street in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 221,
+      "lessonId": 48,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"My name is\" po polsku?",
+      "options": [
+        "Mam",
+        "Nazywam się",
+        "Mieszkam",
+        "Pracuję"
+      ],
+      "correct": 1,
+      "explanation": "\"Nazywam się\" means \"my name is\" in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 222,
+      "lessonId": 48,
+      "type": "translate",
+      "question": "Co oznacza \"Jestem\"?",
+      "options": [
+        "I have",
+        "I am",
+        "I want",
+        "I need"
+      ],
+      "correct": 1,
+      "explanation": "\"Jestem\" means \"I am\" in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 223,
+      "lessonId": 48,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"Nice to meet you\" po polsku?",
+      "options": [
+        "Do widzenia",
+        "Cześć",
+        "Miło cię poznać",
+        "Dziękuję"
+      ],
+      "correct": 2,
+      "explanation": "\"Miło cię poznać\" means \"nice to meet you\" in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 224,
+      "lessonId": 48,
+      "type": "multiple-choice",
+      "question": "Co oznacza \"Mam\"?",
+      "options": [
+        "I am",
+        "I have",
+        "I want",
+        "I like"
+      ],
+      "correct": 1,
+      "explanation": "\"Mam\" means \"I have\" in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 225,
+      "lessonId": 48,
+      "type": "translate",
+      "question": "Przetłumacz: \"I live in\" na polski",
+      "options": [
+        "Mieszkam w",
+        "Pracuję w",
+        "Studiuję w",
+        "Jadę do"
+      ],
+      "correct": 0,
+      "explanation": "\"Mieszkam w\" means \"I live in\" in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 226,
+      "lessonId": 23,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Wie sagt man \"Rot\"?",
+      "options": [
+        "Blau",
+        "Grün",
+        "Rot",
+        "Gelb"
+      ],
+      "correct": 2,
+      "explanation": "\"Rot\" means red in German.",
+      "language": "German"
+    },
+    {
+      "id": 227,
+      "lessonId": 23,
+      "level": 1,
+      "type": "translate",
+      "question": "Was bedeutet \"Blau\"?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "correct": 1,
+      "explanation": "\"Blau\" means blue in German.",
+      "language": "German"
+    },
+    {
+      "id": 228,
+      "lessonId": 23,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Wie sagt man \"Gelb\"?",
+      "options": [
+        "Orange",
+        "Gelb",
+        "Pink",
+        "Lila"
+      ],
+      "correct": 1,
+      "explanation": "\"Gelb\" means yellow in German.",
+      "language": "German"
+    },
+    {
+      "id": 229,
+      "lessonId": 23,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Was bedeutet \"Grün\"?",
+      "options": [
+        "Green",
+        "Brown",
+        "Black",
+        "White"
+      ],
+      "correct": 0,
+      "explanation": "\"Grün\" means green in German.",
+      "language": "German"
+    },
+    {
+      "id": 230,
+      "lessonId": 23,
+      "level": 1,
+      "type": "translate",
+      "question": "Übersetzen: \"Weiß\"",
+      "options": [
+        "Black",
+        "White",
+        "Gray",
+        "Brown"
+      ],
+      "correct": 1,
+      "explanation": "\"Weiß\" means white in German.",
+      "language": "German"
+    },
+    {
+      "id": 231,
+      "lessonId": 32,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Comment dire \"Rouge\"?",
+      "options": [
+        "Bleu",
+        "Vert",
+        "Rouge",
+        "Jaune"
+      ],
+      "correct": 2,
+      "explanation": "\"Rouge\" means red in French.",
+      "language": "French"
+    },
+    {
+      "id": 232,
+      "lessonId": 32,
+      "level": 1,
+      "type": "translate",
+      "question": "Que signifie \"Bleu\"?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "correct": 1,
+      "explanation": "\"Bleu\" means blue in French.",
+      "language": "French"
+    },
+    {
+      "id": 233,
+      "lessonId": 32,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Comment dire \"Jaune\"?",
+      "options": [
+        "Orange",
+        "Jaune",
+        "Rose",
+        "Violet"
+      ],
+      "correct": 1,
+      "explanation": "\"Jaune\" means yellow in French.",
+      "language": "French"
+    },
+    {
+      "id": 234,
+      "lessonId": 32,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Que signifie \"Vert\"?",
+      "options": [
+        "Green",
+        "Brown",
+        "Black",
+        "White"
+      ],
+      "correct": 0,
+      "explanation": "\"Vert\" means green in French.",
+      "language": "French"
+    },
+    {
+      "id": 235,
+      "lessonId": 32,
+      "level": 1,
+      "type": "translate",
+      "question": "Traduire: \"Blanc\"",
+      "options": [
+        "Black",
+        "White",
+        "Gray",
+        "Brown"
+      ],
+      "correct": 1,
+      "explanation": "\"Blanc\" means white in French.",
+      "language": "French"
+    },
+    {
+      "id": 236,
+      "lessonId": 41,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"Czerwony\"?",
+      "options": [
+        "Niebieski",
+        "Zielony",
+        "Czerwony",
+        "Żółty"
+      ],
+      "correct": 2,
+      "explanation": "\"Czerwony\" means red in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 237,
+      "lessonId": 41,
+      "level": 1,
+      "type": "translate",
+      "question": "Co oznacza \"Niebieski\"?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "correct": 1,
+      "explanation": "\"Niebieski\" means blue in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 238,
+      "lessonId": 41,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"Żółty\"?",
+      "options": [
+        "Pomarańczowy",
+        "Żółty",
+        "Różowy",
+        "Fioletowy"
+      ],
+      "correct": 1,
+      "explanation": "\"Żółty\" means yellow in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 239,
+      "lessonId": 41,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Co oznacza \"Zielony\"?",
+      "options": [
+        "Green",
+        "Brown",
+        "Black",
+        "White"
+      ],
+      "correct": 0,
+      "explanation": "\"Zielony\" means green in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 240,
+      "lessonId": 41,
+      "level": 1,
+      "type": "translate",
+      "question": "Przetłumacz: \"Biały\"",
+      "options": [
+        "Black",
+        "White",
+        "Gray",
+        "Brown"
+      ],
+      "correct": 1,
+      "explanation": "\"Biały\" means white in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 241,
+      "lessonId": 25,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Wie sagt man \"Hund\"?",
+      "options": [
+        "Katze",
+        "Hund",
+        "Vogel",
+        "Fisch"
+      ],
+      "correct": 1,
+      "explanation": "\"Hund\" means dog in German.",
+      "language": "German"
+    },
+    {
+      "id": 242,
+      "lessonId": 25,
+      "level": 1,
+      "type": "translate",
+      "question": "Was bedeutet \"Katze\"?",
+      "options": [
+        "Dog",
+        "Bird",
+        "Cat",
+        "Fish"
+      ],
+      "correct": 2,
+      "explanation": "\"Katze\" means cat in German.",
+      "language": "German"
+    },
+    {
+      "id": 243,
+      "lessonId": 25,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Wie sagt man \"Pferd\"?",
+      "options": [
+        "Kuh",
+        "Pferd",
+        "Schaf",
+        "Ziege"
+      ],
+      "correct": 1,
+      "explanation": "\"Pferd\" means horse in German.",
+      "language": "German"
+    },
+    {
+      "id": 244,
+      "lessonId": 25,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Was bedeutet \"Vogel\"?",
+      "options": [
+        "Fish",
+        "Bird",
+        "Insect",
+        "Reptile"
+      ],
+      "correct": 1,
+      "explanation": "\"Vogel\" means bird in German.",
+      "language": "German"
+    },
+    {
+      "id": 245,
+      "lessonId": 25,
+      "level": 1,
+      "type": "translate",
+      "question": "Übersetzen: \"Fisch\"",
+      "options": [
+        "Bird",
+        "Cat",
+        "Dog",
+        "Fish"
+      ],
+      "correct": 3,
+      "explanation": "\"Fisch\" means fish in German.",
+      "language": "German"
+    },
+    {
+      "id": 246,
+      "lessonId": 34,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Comment dire \"Chien\"?",
+      "options": [
+        "Chat",
+        "Chien",
+        "Oiseau",
+        "Poisson"
+      ],
+      "correct": 1,
+      "explanation": "\"Chien\" means dog in French.",
+      "language": "French"
+    },
+    {
+      "id": 247,
+      "lessonId": 34,
+      "level": 1,
+      "type": "translate",
+      "question": "Que signifie \"Chat\"?",
+      "options": [
+        "Dog",
+        "Bird",
+        "Cat",
+        "Fish"
+      ],
+      "correct": 2,
+      "explanation": "\"Chat\" means cat in French.",
+      "language": "French"
+    },
+    {
+      "id": 248,
+      "lessonId": 34,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Comment dire \"Cheval\"?",
+      "options": [
+        "Vache",
+        "Cheval",
+        "Mouton",
+        "Chèvre"
+      ],
+      "correct": 1,
+      "explanation": "\"Cheval\" means horse in French.",
+      "language": "French"
+    },
+    {
+      "id": 249,
+      "lessonId": 34,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Que signifie \"Oiseau\"?",
+      "options": [
+        "Fish",
+        "Bird",
+        "Insect",
+        "Reptile"
+      ],
+      "correct": 1,
+      "explanation": "\"Oiseau\" means bird in French.",
+      "language": "French"
+    },
+    {
+      "id": 250,
+      "lessonId": 34,
+      "level": 1,
+      "type": "translate",
+      "question": "Traduire: \"Poisson\"",
+      "options": [
+        "Bird",
+        "Cat",
+        "Dog",
+        "Fish"
+      ],
+      "correct": 3,
+      "explanation": "\"Poisson\" means fish in French.",
+      "language": "French"
+    },
+    {
+      "id": 251,
+      "lessonId": 43,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"Pies\"?",
+      "options": [
+        "Kot",
+        "Pies",
+        "Ptak",
+        "Ryba"
+      ],
+      "correct": 1,
+      "explanation": "\"Pies\" means dog in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 252,
+      "lessonId": 43,
+      "level": 1,
+      "type": "translate",
+      "question": "Co oznacza \"Kot\"?",
+      "options": [
+        "Dog",
+        "Bird",
+        "Cat",
+        "Fish"
+      ],
+      "correct": 2,
+      "explanation": "\"Kot\" means cat in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 253,
+      "lessonId": 43,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Jak powiedzieć \"Koń\"?",
+      "options": [
+        "Krowa",
+        "Koń",
+        "Owca",
+        "Koza"
+      ],
+      "correct": 1,
+      "explanation": "\"Koń\" means horse in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 254,
+      "lessonId": 43,
+      "level": 1,
+      "type": "multiple-choice",
+      "question": "Co oznacza \"Ptak\"?",
+      "options": [
+        "Fish",
+        "Bird",
+        "Insect",
+        "Reptile"
+      ],
+      "correct": 1,
+      "explanation": "\"Ptak\" means bird in Polish.",
+      "language": "Polish"
+    },
+    {
+      "id": 255,
+      "lessonId": 43,
+      "level": 1,
+      "type": "translate",
+      "question": "Przetłumacz: \"Ryba\"",
+      "options": [
+        "Bird",
+        "Cat",
+        "Dog",
+        "Fish"
+      ],
+      "correct": 3,
+      "explanation": "\"Ryba\" means fish in Polish.",
       "language": "Polish"
     }
   ],
