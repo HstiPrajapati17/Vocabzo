@@ -20,7 +20,7 @@ const AppNavbar = ({ navigate, isLoggedIn, onLogout, user, currentPage }) => {
     >
       <Container fluid="xl">
         <Navbar.Brand
-          onClick={() => handleNav(isLoggedIn ? 'dashboard' : '')}
+          onClick={() => handleNav(isLoggedIn ? 'dashboard' : 'home')}
           className="h_navbar_brand d-flex align-items-center"
           style={{ cursor: 'pointer' }}
         >

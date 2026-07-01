@@ -31,16 +31,17 @@
       "email": "demo@demo.com",
       "password": "demo123",
       "avatar": "🧑",
-      "xp": 450,
+      "xp": 510,
       "streak": 7,
       "hearts": 5,
       "language": "English",
       "level": "Beginner",
       "dailyGoal": "Regular",
       "completedLessons": [
-        "13"
+        13,
+        14
       ],
-      "activeLesson": "131",
+      "activeLesson": 15,
       "joinedDate": "2025-06-01"
     },
     {
@@ -4435,7 +4436,7 @@
       "userId": 2,
       "name": "Demo User",
       "avatar": "🧑",
-      "xp": 450,
+      "xp": 510,
       "streak": 7,
       "language": "🇪🇸",
       "change": "same",

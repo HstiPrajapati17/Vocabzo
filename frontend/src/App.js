@@ -24,16 +24,16 @@ import Blog from './container/Blog';
 import Help from './container/Help';
 import Letters from './container/Letters';
 import Onboarding from './container/Onboarding';
-
+ 
 const shellPages = ['dashboard', 'courses', 'leaderboard', 'quests', 'shop', 'profile', 'settings'];
-
+ 
 const AppContext = createContext();
-
+ 
 const AppProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [previewLanguage, setPreviewLanguage] = useState(null);
   const [lessonStats, setLessonStats] = useState({ total: 0, completed: 0 });
-
+ 
   useEffect(() => {
     const saved = localStorage.getItem("linguaUser");
     if (saved) {
@@ -45,37 +45,37 @@ const AppProvider = ({ children }) => {
       }
     }
   }, []);
-
+ 
   const handleLogin = (userData) => {
     setUser(userData);
     localStorage.setItem("linguaUser", JSON.stringify(userData));
   };
-
+ 
   const handleSignupComplete = (partialUser) => {
     setUser(partialUser);
   };
-
+ 
   const handleLanguageSelected = (updatedUser) => {
     setUser(updatedUser);
     localStorage.setItem("linguaUser", JSON.stringify(updatedUser));
   };
-
+ 
   const handleLogout = () => {
     setUser(null);
     setPreviewLanguage(null);
     localStorage.removeItem('linguaUser');
   };
-
+ 
   const refreshUser = (updatedUser) => {
     setUser(updatedUser);
     localStorage.setItem('linguaUser', JSON.stringify(updatedUser));
     setPreviewLanguage(null);
   };
-
+ 
   const handleLessonStats = useCallback((stats) => {
     setLessonStats(stats);
   }, []);
-
+ 
   return (
     <AppContext.Provider value={{
       user,
@@ -94,51 +94,51 @@ const AppProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
-
+ 
 const useApp = () => useContext(AppContext);
-
+ 
 const ProtectedRoute = ({ children }) => {
   const { user } = useApp();
   const location = useLocation();
-  
+ 
   if (!user) {
     return <Navigate to="/login" state={{ from: location }} replace />;
   }
-  
+ 
   return children;
 };
-
+ 
 const PublicRoute = ({ children }) => {
   const { user } = useApp();
-  
+ 
   if (user) {
     return <Navigate to="/dashboard" replace />;
   }
-  
+ 
   return children;
 };
-
+ 
 const ShellLayout = ({ children }) => {
   const { user, previewLanguage, lessonStats, handleLogout } = useApp();
   const location = useLocation();
   const navigate = useNavigate();
   const isLesson = location.pathname.startsWith('/lesson');
-
+ 
   if (isLesson) {
     return children;
   }
-
+ 
   return (
     <AppShell>
       {children}
     </AppShell>
   );
 };
-
+ 
 const LessonLayout = ({ children }) => {
   return <main className="h_main_content">{children}</main>;
 };
-
+ 
 function App() {
   return (
     <Router>
@@ -150,7 +150,7 @@ function App() {
             <Route path="/login" element={<PublicRoute><Login /></PublicRoute>} />
             <Route path="/signup" element={<PublicRoute><Signup /></PublicRoute>} />
             <Route path="/language-select" element={<LanguageSelect />} />
-
+ 
             {/* Protected Routes with Shell */}
             <Route path="/dashboard" element={
               <ProtectedRoute>
@@ -203,19 +203,20 @@ function App() {
                 <LessonLayout><LessonPage /></LessonLayout>
               </ProtectedRoute>
             } />
+            <Route path="*" element={<PublicLayout><Home /></PublicLayout>} />
           </Routes>
         </div>
       </AppProvider>
     </Router>
   );
 }
-
+ 
 const PublicLayout = ({ children }) => {
   const navigate = useNavigate();
   const { user } = useApp();
   const location = useLocation();
-  const currentPage = location.pathname.replace('/', '') || 'home';
-  
+  const currentPage = location.pathname.replace('/home', '') || 'home';
+ 
   return (
     <>
       <Navbar navigate={navigate} isLoggedIn={false} currentPage={currentPage} />
@@ -225,6 +226,6 @@ const PublicLayout = ({ children }) => {
     </>
   );
 };
-
+ 
 export { useApp };
 export default App;

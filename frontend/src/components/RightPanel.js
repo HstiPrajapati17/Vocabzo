@@ -119,12 +119,12 @@ const RightPanel = ({ user, previewLanguage, currentPage, navigate, lessonCount 
 
       {/* Footer links */}
       <div className="h_rp_footer">
-        <button className="h_rp_footer_link" style={{ cursor: 'not-allowed', opacity: 0.5 }} onClick={() => navigate('/about')}>ABOUT</button>
-        <button className="h_rp_footer_link" style={{ cursor: 'not-allowed', opacity: 0.5 }} onClick={() => navigate('/blog')}>BLOG</button>
-        {/* <span className="h_rp_footer_link" style={{ cursor: 'not-allowed', opacity: 0.5 }}>STORE</span> */}
-        <button className="h_rp_footer_link" style={{ cursor: 'not-allowed', opacity: 0.5 }} onClick={() => navigate('/terms')}>TERMS</button>
-        <button className="h_rp_footer_link" style={{ cursor: 'not-allowed', opacity: 0.5 }} onClick={() => navigate('/privacy')}>PRIVACY</button>
-        <button className="h_rp_footer_link" style={{ cursor: 'not-allowed', opacity: 0.5 }} onClick={() => navigate('/help')}>HELP</button>
+        <button className="h_rp_footer_link" style={{ opacity: 0.8 }} onClick={() => navigate('/about')}>ABOUT</button>
+        <button className="h_rp_footer_link" style={{ opacity: 0.8 }} onClick={() => navigate('/blog')}>BLOG</button>
+        {/* <span className="h_rp_footer_link" style={{ opacity: 0.8 }}>STORE</span> */}
+        <button className="h_rp_footer_link" style={{ opacity: 0.8 }} onClick={() => navigate('/terms')}>TERMS</button>
+        <button className="h_rp_footer_link" style={{ opacity: 0.8 }} onClick={() => navigate('/privacy')}>PRIVACY</button>
+        <button className="h_rp_footer_link" style={{ opacity: 0.8 }} onClick={() => navigate('/help')}>HELP</button>
       </div>
     </aside>
   );
