@@ -203,6 +203,7 @@ function App() {
                 <LessonLayout><LessonPage /></LessonLayout>
               </ProtectedRoute>
             } />
+            <Route path="*" element={<PublicLayout><Home /></PublicLayout>} />
           </Routes>
         </div>
       </AppProvider>
@@ -214,13 +215,13 @@ const PublicLayout = ({ children }) => {
   const navigate = useNavigate();
   const { user } = useApp();
   const location = useLocation();
-  const currentPage = location.pathname.replace('/', '') || 'home';
+  const currentPage = location.pathname.replace('/home', '') || 'home';
   
   return (
     <>
       <Navbar navigate={navigate} isLoggedIn={false} currentPage={currentPage} />
       <main className="h_main_content">
-        {children}
+        <Home />
       </main>
     </>
   );
